@@ -124,7 +124,7 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser(description = "Run .")
     parser.add_argument('--device', type=str, default='cuda:0')
     parser.add_argument("--dataset-name", nargs = "?", default = "ALOI")
-    parser.add_argument("--epoch-num", type = int, default = 180, help = "Number of training epochs.")
+    parser.add_argument("--epoch-num", type = int, default = 200, help = "Number of training epochs.")
     parser.add_argument("--seed", type = int, default = 2023, help = "Random seed for network training.")
     parser.add_argument("--learning-rate", type = float, default = 0.01, help = "Learning rate. Default is 0.01.")
 
